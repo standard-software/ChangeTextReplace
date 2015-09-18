@@ -24,7 +24,7 @@ ChangeTextReplace.vbs はテキスト中の文字列を置き換え変換する
 
 ◆使用例
 
-ChangeTextEncode.vbs "shift_jis" .\TestFile\File_SJIS.txt "UTF-8" .\TestFile\File_SJIS-to-UTF8.txt
+ChangeTextReplace.vbs "SHIFT_JIS" .\TestFile\File_SJIS.txt "123⇒456,あいうえお⇒さしすせそ" .\TestFile\File_SJIS-Replace.txt
 
 エンコード名やファイルパスは
 ダブルクウォーテーションで囲っても囲わなくてもOKですが
@@ -46,3 +46,11 @@ ChangeTextEncode.vbs "shift_jis" .\TestFile\File_SJIS.txt "UTF-8" .\TestFile\Fil
 
 読み込み時に UTF-8 と UTF-16LE の場合は
 BOMの有無関係なく読み込む事は可能です。
+
+◆変換指定
+使用例で示しているとおり、
+カンマ区切りで、複数指定することができ
+    変換前⇒変換後
+という形式で指定してください。
+
+
