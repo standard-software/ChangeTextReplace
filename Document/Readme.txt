@@ -31,7 +31,7 @@ ChangeTextReplace.vbs "SHIFT_JIS" .\TestFile\File_SJIS.txt "123Ë456,‚ ‚¢‚¤‚¦‚¨
 ‹ó”’‚ðŠÜ‚Þƒtƒ@ƒCƒ‹ƒpƒX‚Ìê‡‚Í
 ƒ_ƒuƒ‹ƒNƒEƒH[ƒe[ƒVƒ‡ƒ“‚ª•K—v‚É‚È‚è‚Ü‚·B
 
-Ÿ‘Î‰žŠg’£Žq
+Ÿ‘Î‰žƒGƒ“ƒR[ƒh
     ƒGƒ“ƒR[ƒh          Žw’è•¶Žš
     ShiftJIS            SHIFT_JIS
     UTF-16LE BOM—L‚è    UNICODEFFFE/UNICODE/UTF-16
